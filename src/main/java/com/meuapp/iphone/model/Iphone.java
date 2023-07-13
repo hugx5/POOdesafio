@@ -7,7 +7,7 @@ import com.meuapp.iphone.ReprodutorMusical;
 public class Iphone implements ReprodutorMusical, AparelhoTelefonico, NavegadorInternet {
     @Override
     public void ligar(String numero) {
-        System.out.println("Ligando para o número: " + numero);
+        System.out.println("Ligando para o número " + numero);
     }
 
     @Override
